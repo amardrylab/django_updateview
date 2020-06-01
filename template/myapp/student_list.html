@@ -1,0 +1,5 @@
+{% for item in object_list %}
+
+<p><a href={% url 'student_update' item.id %}> {{ item.name }}</a> </p>
+
+{% endfor %}
